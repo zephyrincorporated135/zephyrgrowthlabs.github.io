@@ -1,1199 +1,248 @@
-<p>
-    <span>
-        &lt;!DOCTYPE html&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;html lang="en"&gt;
-     </span>
-</p>
-<p>
-    <span>
-        &lt;head&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;meta charset="UTF-8"&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;title&gt;Zephyr Growth Systems | Premium YouTube Strategy&lt;/title&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet"&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;style&gt;
-    </span>
-</p>
-<p>
-    <span>
-        /* Base Styles */
-    </span>
-</p>
-<p>
-    <span>
-        * { box-sizing: border-box; scroll-behavior: smooth; }
-    </span>
-</p>
-<p>
-    <span>
-        body {
-    </span>
-</p>
-<p>
-    <span>
-          margin: 0;
-    </span>
-</p>
-<p>
-    <span>
-          font-family: 'Inter', sans-serif;
-    </span>
-</p>
-<p>
-    <span>
-          background: #050505;
-    </span>
-</p>
-<p>
-    <span>
-          color: #fff;
-    </span>
-</p>
-<p>
-    <span>
-          line-height: 1.6;
-    </span>
-</p>
-<p>
-    <span>
-        }
-    </span>
-</p>
-<p>
-    <span>
-        .container {
-    </span>
-</p>
-<p>
-    <span>
-          max-width: 1100px;
-    </span>
-</p>
-<p>
-    <span>
-          margin: auto;
-    </span>
-</p>
-<p>
-    <span>
-          padding: 80px 24px;
-    </span>
-</p>
-<p>
-    <span>
-        }
-    </span>
-</p>
-<p>
-    <span>
-        h1, h2, h3 { margin-top: 0; font-weight: 800; }
-    </span>
-</p>
-<p>
-    <span>
-        h1 { font-size: 3.5rem; letter-spacing: -2px; line-height: 1.1; margin-bottom: 20px; }
-    </span>
-</p>
-<p>
-    <span>
-        h2 { font-size: 2.2rem; margin-bottom: 10px; text-align: center; }
-    </span>
-</p>
-<p>
-    <span>
-        p { color: #a0a0a0; font-size: 1.1rem; }
-    </span>
-</p>
-<p>
-    <span>
-        .center-text { text-align: center; margin-bottom: 50px; }
-    </span>
-</p>
-<p>
-    <span>
-        /* Buttons */
-    </span>
-</p>
-<p>
-    <span>
-        .btn {
-    </span>
-</p>
-<p>
-    <span>
-          display: inline-block;
-    </span>
-</p>
-<p>
-    <span>
-          padding: 16px 32px;
-    </span>
-</p>
-<p>
-    <span>
-          background: #ffffff;
-    </span>
-</p>
-<p>
-    <span>
-          color: #000;
-    </span>
-</p>
-<p>
-    <span>
-          border-radius: 12px;
-    </span>
-</p>
-<p>
-    <span>
-          font-weight: 700;
-    </span>
-</p>
-<p>
-    <span>
-          text-decoration: none;
-    </span>
-</p>
-<p>
-    <span>
-          transition: all 0.2s ease;
-    </span>
-</p>
-<p>
-    <span>
-          border: none;
-    </span>
-</p>
-<p>
-    <span>
-          cursor: pointer;
-    </span>
-</p>
-<p>
-    <span>
-          text-align: center;
-    </span>
-</p>
-<p>
-    <span>
-        }
-    </span>
-</p>
-<p>
-    <span>
-        .btn:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(255,255,255,0.1); }
-    </span>
-</p>
-<p>
-    <span>
-        /* Hero &amp; Stats */
-    </span>
-</p>
-<p>
-    <span>
-        .hero { text-align: center; padding-top: 120px; }
-    </span>
-</p>
-<p>
-    <span>
-        .stats {
-    </span>
-</p>
-<p>
-    <span>
-          display: grid;
-    </span>
-</p>
-<p>
-    <span>
-          grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    </span>
-</p>
-<p>
-    <span>
-          gap: 20px;
-    </span>
-</p>
-<p>
-    <span>
-          margin-top: 60px;
-    </span>
-</p>
-<p>
-    <span>
-        }
-    </span>
-</p>
-<p>
-    <span>
-        .stat { background: #0f0f0f; padding: 30px; border-radius: 20px; border: 1px solid #1a1a1a; }
-    </span>
-</p>
-<p>
-    <span>
-        .stat h2 { font-size: 2.5rem; color: #fff; margin-bottom: 0; }
-    </span>
-</p>
-<p>
-    <span>
-        /* Proof Section */
-    </span>
-</p>
-<p>
-    <span>
-        .videos {
-    </span>
-</p>
-<p>
-    <span>
-          display: grid;
-    </span>
-</p>
-<p>
-    <span>
-          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    </span>
-</p>
-<p>
-    <span>
-          gap: 25px;
-    </span>
-</p>
-<p>
-    <span>
-        }
-    </span>
-</p>
-<p>
-    <span>
-        .video-card { position: relative; border-radius: 16px; overflow: hidden; display: block; border: 1px solid #222; }
-    </span>
-</p>
-<p>
-    <span>
-        .video-card img { width: 100%; display: block; transition: 0.5s; }
-    </span>
-</p>
-<p>
-    <span>
-        .video-card:hover img { transform: scale(1.05); }
-    </span>
-</p>
-<p>
-    <span>
-        .views-badge {
-    </span>
-</p>
-<p>
-    <span>
-          position: absolute; top: 15px; right: 15px;
-    </span>
-</p>
-<p>
-    <span>
-          background: rgba(0,0,0,0.85);
-    </span>
-</p>
-<p>
-    <span>
-          padding: 6px 14px; border-radius: 50px;
-    </span>
-</p>
-<p>
-    <span>
-          font-size: 0.8rem; font-weight: 700;
-    </span>
-</p>
-<p>
-    <span>
-          color: #ffffff !important;
-    </span>
-</p>
-<p>
-    <span>
-          z-index: 10;
-    </span>
-</p>
-<p>
-    <span>
-        }
-    </span>
-</p>
-<p>
-    <span>
-        /* Pricing Section */
-    </span>
-</p>
-<p>
-    <span>
-        .pricing-grid {
-    </span>
-</p>
-<p>
-    <span>
-          display: grid;
-    </span>
-</p>
-<p>
-    <span>
-          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    </span>
-</p>
-<p>
-    <span>
-          gap: 30px;
-    </span>
-</p>
-<p>
-    <span>
-          margin-top: 60px;
-    </span>
-</p>
-<p>
-    <span>
-        }
-    </span>
-</p>
-<p>
-    <span>
-        .plan {
-    </span>
-</p>
-<p>
-    <span>
-          background: #0f0f0f;
-    </span>
-</p>
-<p>
-    <span>
-          padding: 50px 35px;
-    </span>
-</p>
-<p>
-    <span>
-          border-radius: 24px;
-    </span>
-</p>
-<p>
-    <span>
-          border: 1px solid #1a1a1a;
-    </span>
-</p>
-<p>
-    <span>
-          position: relative;
-    </span>
-</p>
-<p>
-    <span>
-          display: flex;
-    </span>
-</p>
-<p>
-    <span>
-          flex-direction: column;
-    </span>
-</p>
-<p>
-    <span>
-          transition: transform 0.3s ease, border-color 0.3s ease;
-    </span>
-</p>
-<p>
-    <span>
-        }
-    </span>
-</p>
-<p>
-    <span>
-        .plan:hover { transform: translateY(-10px); border-color: #333; }
-    </span>
-</p>
-<p>
-    <span>
-        .plan h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: 2px; color: #8c78ff; margin-bottom: 15px; }
-    </span>
-</p>
-<p>
-    <span>
-        .price { font-size: 3.5rem; font-weight: 800; margin-bottom: 25px; display: flex; align-items: baseline; }
-    </span>
-</p>
-<p>
-    <span>
-        .price span { font-size: 1.5rem; color: #555; margin-right: 4px; }
-    </span>
-</p>
-<p>
-    <span>
-        .plan ul { list-style: none; padding: 0; margin: 0 0 35px 0; flex-grow: 1; }
-    </span>
-</p>
-<p>
-    <span>
-        .plan li { margin-bottom: 16px; color: #ccc; font-size: 0.95rem; display: flex; align-items: flex-start; }
-    </span>
-</p>
-<p>
-    <span>
-        .plan li::before { content: '✓'; color: #8c78ff; margin-right: 12px; font-weight: 900; }
-    </span>
-</p>
-<p>
-    <span>
-        .highlight {
-    </span>
-</p>
-<p>
-    <span>
-          border: 2px solid #8c78ff;
-    </span>
-</p>
-<p>
-    <span>
-          background: linear-gradient(180deg, rgba(140,120,255,0.08) 0%, rgba(15,15,15,1) 100%);
-    </span>
-</p>
-<p>
-    <span>
-        }
-    </span>
-</p>
-<p>
-    <span>
-        .badge {
-    </span>
-</p>
-<p>
-    <span>
-          position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
-    </span>
-</p>
-<p>
-    <span>
-          background: #8c78ff; color: #fff; padding: 5px 18px; border-radius: 50px;
-    </span>
-</p>
-<p>
-    <span>
-          font-size: 0.75rem; font-weight: 800; letter-spacing: 1px;
-    </span>
-</p>
-<p>
-    <span>
-        }
-    </span>
-</p>
-<p>
-    <span>
-        .btn-outline {
-    </span>
-</p>
-<p>
-    <span>
-          background: transparent; color: #fff; border: 1px solid #333;
-    </span>
-</p>
-<p>
-    <span>
-        }
-    </span>
-</p>
-<p>
-    <span>
-        /* Form Styles */
-    </span>
-</p>
-<p>
-    <span>
-        .apply { max-width: 600px; margin: 100px auto; text-align: center; }
-    </span>
-</p>
-<p>
-    <span>
-        form { display: grid; gap: 15px; margin-top: 40px; }
-    </span>
-</p>
-<p>
-    <span>
-        input, textarea, select { 
-    </span>
-</p>
-<p>
-    <span>
-          background: #0f0f0f; 
-    </span>
-</p>
-<p>
-    <span>
-          border: 1px solid #1a1a1a; 
-    </span>
-</p>
-<p>
-    <span>
-          padding: 16px; 
-    </span>
-</p>
-<p>
-    <span>
-          border-radius: 12px; 
-    </span>
-</p>
-<p>
-    <span>
-          color: #fff; 
-    </span>
-</p>
-<p>
-    <span>
-          font-family: inherit;
-    </span>
-</p>
-<p>
-    <span>
-          font-size: 1rem;
-    </span>
-</p>
-<p>
-    <span>
-          width: 100%;
-    </span>
-</p>
-<p>
-    <span>
-        }
-    </span>
-</p>
-<p>
-    <span>
-        select {
-    </span>
-</p>
-<p>
-    <span>
-          appearance: none;
-    </span>
-</p>
-<p>
-    <span>
-          background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
-    </span>
-</p>
-<p>
-    <span>
-          background-repeat: no-repeat;
-    </span>
-</p>
-<p>
-    <span>
-          background-position: right 16px center;
-    </span>
-</p>
-<p>
-    <span>
-          background-size: 1em;
-    </span>
-</p>
-<p>
-    <span>
-          cursor: pointer;
-    </span>
-</p>
-<p>
-    <span>
-        }
-    </span>
-</p>
-<p>
-    <span>
-        input:focus, textarea:focus, select:focus { outline: none; border-color: #8c78ff; }
-    </span>
-</p>
-<p>
-    <span>
-        footer { text-align: center; padding: 60px 20px; border-top: 1px solid #111; color: #555; font-size: 0.9rem; }
-    </span>
-</p>
-<p>
-    <span>
-        &lt;/style&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;/head&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;body&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;section class="hero container"&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;h1&gt;Engineer Your&lt;br&gt;YouTube Growth&lt;/h1&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;p&gt;SEO optimization and channel positioning designed for compounding results.&lt;/p&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;a href="#apply" class="btn" style="margin-top: 30px;"&gt;Apply For Optimization&lt;/a&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;div class="stats"&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;div class="stat"&gt;&lt;h2&gt;1.5M+&lt;/h2&gt;&lt;p&gt;Views Generated&lt;/p&gt;&lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;div class="stat"&gt;&lt;h2&gt;6&lt;/h2&gt;&lt;p&gt;Long-Form Case Studies&lt;/p&gt;&lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;div class="stat"&gt;&lt;h2&gt;10K+&lt;/h2&gt;&lt;p&gt;New Subscribers&lt;/p&gt;&lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;/section&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;section class="container"&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;div class="center-text"&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;h2&gt;Proof Of Performance&lt;/h2&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;div class="videos"&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;a class="video-card" href="https://youtu.be/RS1-hFFGqRI" target="_blank"&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;div class="views-badge"&gt;672K+ Views&lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;img src="https://img.youtube.com/vi/RS1-hFFGqRI/maxresdefault.jpg"&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;/a&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;a class="video-card" href="https://youtu.be/7bN39CmeAq4" target="_blank"&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;div class="views-badge"&gt;140K+ Views&lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;img src="https://img.youtube.com/vi/7bN39CmeAq4/maxresdefault.jpg"&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;/a&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;a class="video-card" href="https://youtu.be/O4um9FcgCAs" target="_blank"&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;div class="views-badge"&gt;271K+ Views&lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;img src="https://img.youtube.com/vi/O4um9FcgCAs/maxresdefault.jpg"&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;/a&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;a class="video-card" href="https://youtu.be/wTRj7SPwEgE" target="_blank"&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;div class="views-badge"&gt;84K+ Views&lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;img src="https://img.youtube.com/vi/wTRj7SPwEgE/maxresdefault.jpg"&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;/a&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;a class="video-card" href="https://youtu.be/3GyCO3zzYsw" target="_blank"&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;div class="views-badge"&gt;118K+ Views&lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;img src="https://img.youtube.com/vi/3GyCO3zzYsw/maxresdefault.jpg"&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;/a&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;a class="video-card" href="https://youtu.be/NAkZxHSuzCk" target="_blank"&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;div class="views-badge"&gt;86K+ Views&lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;img src="https://img.youtube.com/vi/NAkZxHSuzCk/maxresdefault.jpg"&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;/a&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;/section&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;section class="container" id="pricing"&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;div class="center-text"&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;h2&gt;Pricing Packages&lt;/h2&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;p&gt;Select the stage that fits your current channel size.&lt;/p&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;div class="pricing-grid"&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;div class="plan"&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;h3&gt;Starter&lt;/h3&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;div class="price"&gt;&lt;span&gt;$&lt;/span&gt;50&lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;ul&gt;
-    </span>
-</p>
-<p>
-    <span>
-                &lt;li&gt;Channel direction audit&lt;/li&gt;
-    </span>
-</p>
-<p>
-    <span>
-                &lt;li&gt;Fixes for 3 key videos&lt;/li&gt;
-    </span>
-</p>
-<p>
-    <span>
-                &lt;li&gt;Title &amp; metadata guidance&lt;/li&gt;
-    </span>
-</p>
-<p>
-    <span>
-                &lt;li&gt;Visual improvement notes&lt;/li&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;/ul&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;a href="#apply" class="btn btn-outline"&gt;Select Starter&lt;/a&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;div class="plan highlight"&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;div class="badge"&gt;MOST POPULAR&lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;h3&gt;Growth&lt;/h3&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;div class="price"&gt;&lt;span&gt;$&lt;/span&gt;125&lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;ul&gt;
-    </span>
-</p>
-<p>
-    <span>
-                &lt;li&gt;45 min 1-on-1 Strategy Call&lt;/li&gt;
-    </span>
-</p>
-<p>
-    <span>
-                &lt;li&gt;Niche &amp; content blueprint&lt;/li&gt;
-    </span>
-</p>
-<p>
-    <span>
-                &lt;li&gt;High-retention video ideas&lt;/li&gt;
-    </span>
-</p>
-<p>
-    <span>
-                &lt;li&gt;SEO structural overhaul&lt;/li&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;/ul&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;a href="#apply" class="btn"&gt;Select Growth&lt;/a&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;div class="plan"&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;h3&gt;Scale&lt;/h3&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;div class="price"&gt;&lt;span&gt;$&lt;/span&gt;235&lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;ul&gt;
-    </span>
-</p>
-<p>
-    <span>
-                &lt;li&gt;60 min Deep-Dive Session&lt;/li&gt;
-    </span>
-</p>
-<p>
-    <span>
-                &lt;li&gt;Full channel positioning plan&lt;/li&gt;
-    </span>
-</p>
-<p>
-    <span>
-                &lt;li&gt;Competitor gap analysis&lt;/li&gt;
-    </span>
-</p>
-<p>
-    <span>
-                &lt;li&gt;Monetization roadmap&lt;/li&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;/ul&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;a href="#apply" class="btn btn-outline"&gt;Select Scale&lt;/a&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;/div&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;/section&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;section id="apply" class="container apply"&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;h2&gt;Apply for Growth&lt;/h2&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;form name="channel-leads" method="POST" data-netlify="true"&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;input type="hidden" name="form-name" value="channel-leads"&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;input type="email" name="email" placeholder="Your Email" required&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;input type="url" name="channel" placeholder="YouTube Channel URL" required&gt;
-    </span>
-</p>
-<p>
-    <span>
-    </span>
-</p>
-<p>
-    <span>
-            &lt;select name="package" required&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;option value="" disabled selected&gt;Select Your Package&lt;/option&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;option value="starter"&gt;Starter Package ($50)&lt;/option&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;option value="growth"&gt;Growth Package ($125)&lt;/option&gt;
-    </span>
-</p>
-<p>
-    <span>
-              &lt;option value="scale"&gt;Scale Package ($235)&lt;/option&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;/select&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;textarea name="comments" placeholder="What is your biggest struggle right now?" rows="4"&gt;&lt;/textarea&gt;
-    </span>
-</p>
-<p>
-    <span>
-            &lt;button type="submit" class="btn"&gt;Submit Application&lt;/button&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;/form&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;/section&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;footer&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;p&gt;zephyrincorporated135@gmail.com&lt;/p&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;p&gt;X: @ZephyrIsReal | Discord: zephyrincorporated&lt;/p&gt;
-    </span>
-</p>
-<p>
-    <span>
-          &lt;p style="margin-top:20px; opacity:0.5;"&gt;© 2026 Zephyr Growth Labs&lt;/p&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;/footer&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;/body&gt;
-    </span>
-</p>
-<p>
-    <span>
-        &lt;/html&gt;
-    </span>
-</p>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Zephyr Growth Systems | Premium YouTube Strategy</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+      <style>
+         /* Base Styles */
+         * { box-sizing: border-box; scroll-behavior: smooth; }
+         body {
+         margin: 0;
+         font-family: 'Inter', sans-serif;
+         background: #050505;
+         color: #fff;
+         line-height: 1.6;
+         }
+         .container {
+         max-width: 1100px;
+         margin: auto;
+         padding: 80px 24px;
+         }
+         h1, h2, h3 { margin-top: 0; font-weight: 800; }
+         h1 { font-size: 3.5rem; letter-spacing: -2px; line-height: 1.1; margin-bottom: 20px; }
+         h2 { font-size: 2.2rem; margin-bottom: 10px; text-align: center; }
+         p { color: #a0a0a0; font-size: 1.1rem; }
+         .center-text { text-align: center; margin-bottom: 50px; }
+         /* Buttons */
+         .btn {
+         display: inline-block;
+         padding: 16px 32px;
+         background: #ffffff;
+         color: #000;
+         border-radius: 12px;
+         font-weight: 700;
+         text-decoration: none;
+         transition: all 0.2s ease;
+         border: none;
+         cursor: pointer;
+         text-align: center;
+         }
+         .btn:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(255,255,255,0.1); }
+         /* Hero & Stats */
+         .hero { text-align: center; padding-top: 120px; }
+         .stats {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+         gap: 20px;
+         margin-top: 60px;
+         }
+         .stat { background: #0f0f0f; padding: 30px; border-radius: 20px; border: 1px solid #1a1a1a; }
+         .stat h2 { font-size: 2.5rem; color: #fff; margin-bottom: 0; }
+         /* Proof Section */
+         .videos {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+         gap: 25px;
+         }
+         .video-card { position: relative; border-radius: 16px; overflow: hidden; display: block; border: 1px solid #222; }
+         .video-card img { width: 100%; display: block; transition: 0.5s; }
+         .video-card:hover img { transform: scale(1.05); }
+         .views-badge {
+         position: absolute; top: 15px; right: 15px;
+         background: rgba(0,0,0,0.85);
+         padding: 6px 14px; border-radius: 50px;
+         font-size: 0.8rem; font-weight: 700;
+         color: #ffffff !important;
+         z-index: 10;
+         }
+         /* Pricing Section */
+         .pricing-grid {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+         gap: 30px;
+         margin-top: 60px;
+         }
+         .plan {
+         background: #0f0f0f;
+         padding: 50px 35px;
+         border-radius: 24px;
+         border: 1px solid #1a1a1a;
+         position: relative;
+         display: flex;
+         flex-direction: column;
+         transition: transform 0.3s ease, border-color 0.3s ease;
+         }
+         .plan:hover { transform: translateY(-10px); border-color: #333; }
+         .plan h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: 2px; color: #8c78ff; margin-bottom: 15px; }
+         .price { font-size: 3.5rem; font-weight: 800; margin-bottom: 25px; display: flex; align-items: baseline; }
+         .price span { font-size: 1.5rem; color: #555; margin-right: 4px; }
+         .plan ul { list-style: none; padding: 0; margin: 0 0 35px 0; flex-grow: 1; }
+         .plan li { margin-bottom: 16px; color: #ccc; font-size: 0.95rem; display: flex; align-items: flex-start; }
+         .plan li::before { content: '✓'; color: #8c78ff; margin-right: 12px; font-weight: 900; }
+         .highlight {
+         border: 2px solid #8c78ff;
+         background: linear-gradient(180deg, rgba(140,120,255,0.08) 0%, rgba(15,15,15,1) 100%);
+         }
+         .badge {
+         position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
+         background: #8c78ff; color: #fff; padding: 5px 18px; border-radius: 50px;
+         font-size: 0.75rem; font-weight: 800; letter-spacing: 1px;
+         }
+         .btn-outline {
+         background: transparent; color: #fff; border: 1px solid #333;
+         }
+         /* Form Styles */
+         .apply { max-width: 600px; margin: 100px auto; text-align: center; }
+         form { display: grid; gap: 15px; margin-top: 40px; }
+         input, textarea, select { 
+         background: #0f0f0f; 
+         border: 1px solid #1a1a1a; 
+         padding: 16px; 
+         border-radius: 12px; 
+         color: #fff; 
+         font-family: inherit;
+         font-size: 1rem;
+         width: 100%;
+         }
+         select {
+         appearance: none;
+         background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+         background-repeat: no-repeat;
+         background-position: right 16px center;
+         background-size: 1em;
+         cursor: pointer;
+         }
+         input:focus, textarea:focus, select:focus { outline: none; border-color: #8c78ff; }
+         footer { text-align: center; padding: 60px 20px; border-top: 1px solid #111; color: #555; font-size: 0.9rem; }
+      </style>
+   </head>
+   <body>
+      <section class="hero container">
+         <h1>Engineer Your<br>YouTube Growth</h1>
+         <p>SEO optimization and channel positioning designed for compounding results.</p>
+         <a href="#apply" class="btn" style="margin-top: 30px;">Apply For Optimization</a>
+         <div class="stats">
+            <div class="stat">
+               <h2>1.5M+</h2>
+               <p>Views Generated</p>
+            </div>
+            <div class="stat">
+               <h2>6</h2>
+               <p>Long-Form Case Studies</p>
+            </div>
+            <div class="stat">
+               <h2>10K+</h2>
+               <p>New Subscribers</p>
+            </div>
+         </div>
+      </section>
+      <section class="container">
+         <div class="center-text">
+            <h2>Proof Of Performance</h2>
+         </div>
+         <div class="videos">
+            <a class="video-card" href="https://youtu.be/RS1-hFFGqRI" target="_blank">
+               <div class="views-badge">672K+ Views</div>
+               <img src="https://img.youtube.com/vi/RS1-hFFGqRI/maxresdefault.jpg">
+            </a>
+            <a class="video-card" href="https://youtu.be/7bN39CmeAq4" target="_blank">
+               <div class="views-badge">140K+ Views</div>
+               <img src="https://img.youtube.com/vi/7bN39CmeAq4/maxresdefault.jpg">
+            </a>
+            <a class="video-card" href="https://youtu.be/O4um9FcgCAs" target="_blank">
+               <div class="views-badge">271K+ Views</div>
+               <img src="https://img.youtube.com/vi/O4um9FcgCAs/maxresdefault.jpg">
+            </a>
+            <a class="video-card" href="https://youtu.be/wTRj7SPwEgE" target="_blank">
+               <div class="views-badge">84K+ Views</div>
+               <img src="https://img.youtube.com/vi/wTRj7SPwEgE/maxresdefault.jpg">
+            </a>
+            <a class="video-card" href="https://youtu.be/3GyCO3zzYsw" target="_blank">
+               <div class="views-badge">118K+ Views</div>
+               <img src="https://img.youtube.com/vi/3GyCO3zzYsw/maxresdefault.jpg">
+            </a>
+            <a class="video-card" href="https://youtu.be/NAkZxHSuzCk" target="_blank">
+               <div class="views-badge">86K+ Views</div>
+               <img src="https://img.youtube.com/vi/NAkZxHSuzCk/maxresdefault.jpg">
+            </a>
+         </div>
+      </section>
+      <section class="container" id="pricing">
+         <div class="center-text">
+            <h2>Pricing Packages</h2>
+            <p>Select the stage that fits your current channel size.</p>
+         </div>
+         <div class="pricing-grid">
+            <div class="plan">
+               <h3>Starter</h3>
+               <div class="price"><span>$</span>50</div>
+               <ul>
+                  <li>Channel direction audit</li>
+                  <li>Fixes for 3 key videos</li>
+                  <li>Title & metadata guidance</li>
+                  <li>Visual improvement notes</li>
+               </ul>
+               <a href="#apply" class="btn btn-outline">Select Starter</a>
+            </div>
+            <div class="plan highlight">
+               <div class="badge">MOST POPULAR</div>
+               <h3>Growth</h3>
+               <div class="price"><span>$</span>125</div>
+               <ul>
+                  <li>45 min 1-on-1 Strategy Call</li>
+                  <li>Niche & content blueprint</li>
+                  <li>High-retention video ideas</li>
+                  <li>SEO structural overhaul</li>
+               </ul>
+               <a href="#apply" class="btn">Select Growth</a>
+            </div>
+            <div class="plan">
+               <h3>Scale</h3>
+               <div class="price"><span>$</span>235</div>
+               <ul>
+                  <li>60 min Deep-Dive Session</li>
+                  <li>Full channel positioning plan</li>
+                  <li>Competitor gap analysis</li>
+                  <li>Monetization roadmap</li>
+               </ul>
+               <a href="#apply" class="btn btn-outline">Select Scale</a>
+            </div>
+         </div>
+      </section>
+      <section id="apply" class="container apply">
+         <h2>Apply for Growth</h2>
+         <form name="channel-leads" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="channel-leads">
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="url" name="channel" placeholder="YouTube Channel URL" required>
+            <select name="package" required>
+               <option value="" disabled selected>Select Your Package</option>
+               <option value="starter">Starter Package ($50)</option>
+               <option value="growth">Growth Package ($125)</option>
+               <option value="scale">Scale Package ($235)</option>
+            </select>
+            <textarea name="comments" placeholder="What is your biggest struggle right now?" rows="4"></textarea>
+            <button type="submit" class="btn">Submit Application</button>
+         </form>
+      </section>
+      <footer>
+         <p>zephyrincorporated135@gmail.com</p>
+         <p>X: @ZephyrIsReal | Discord: zephyrincorporated</p>
+         <p style="margin-top:20px; opacity:0.5;">© 2026 Zephyr Growth Labs</p>
+      </footer>
+   </body>
+</html>
